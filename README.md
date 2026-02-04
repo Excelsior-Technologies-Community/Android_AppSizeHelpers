@@ -24,7 +24,7 @@ Android App Size Helpers is a lightweight Android library that helps developers 
 # **Preview**
 ---
 <p align="center">
-  <img src="https://github.com/S13reya/Android_SwipeTransition/blob/stages/app/src/main/assets/demovideo.gif" height="320"/>
+  <img src="https://github.com/S13reya/Android_AppSizeHelpers/blob/stages/app/src/main/assets/demovideo.gif" height="320"/>
 
 
 
