@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center_horizontal">
+
+        <!-- Title -->
+        <TextView
+            android:text="App Size Helpers Demo"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <!-- 1. Device Info -->
+        <TextView
+            android:layout_marginTop="10dp"
+
+            android:id="@+id/tvDeviceInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!-- 2. Percentage Size (50%) -->
+        <TextView
+            android:layout_marginTop="10dp"
+
+            android:id="@+id/view50"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <!-- 3. Aspect Ratio -->
+        <ImageView
+            android:id="@+id/imgAspect"
+            android:layout_marginTop="10dp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <!-- 4. Responsive Text -->
+        <TextView
+            android:id="@+id/tvResponsiveText"
+            android:layout_marginTop="10dp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <!-- 5. Padding Percent -->
+        <TextView
+            android:layout_marginTop="10dp"
+
+            android:id="@+id/tvPadding"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <!-- 6. Interactive Resize -->
+        <TextView
+            android:layout_marginTop="10dp"
+
+            android:id="@+id/viewInteractive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:layout_marginTop="10dp"
+
+            android:id="@+id/btnResize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Resize"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="32dp"/>
+
+    </LinearLayout>
+</ScrollView>
